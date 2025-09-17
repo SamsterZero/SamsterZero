@@ -11,7 +11,7 @@ jobs:
     if: github.event.release.prerelease == false
     steps:
       # 1. Checkout main branch (not the tag commit)
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: main
 
