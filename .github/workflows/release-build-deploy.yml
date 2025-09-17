@@ -1,35 +1,30 @@
 name: Release Build & Deploy
 
 on:
-  workflow_dispatch: {}       # manual trigger
+  workflow_dispatch: {}
   release:
-    types: [published]        # trigger only on published releases
+    types: [published]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     if: github.event.release.prerelease == false
     steps:
-      # 1. Checkout the tag commit that triggered the release
       - uses: actions/checkout@v3
         with:
           ref: ${{ github.ref }}
 
-      # 2. Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 20
 
-      # 3. Install dependencies
       - name: Install dependencies
         run: npm ci
 
-      # 4. Build Next.js (out/ is generated because of next.config.js with output: "export")
       - name: Build Next.js
         run: npm run build
 
-      # 5. Upload artifact for deploy job
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
@@ -41,17 +36,16 @@ jobs:
     needs: build
     if: github.event.release.prerelease == false
     steps:
-      # 1. Download the build artifact
-      - name: Download build artifact
+      - name: Download artifact
         uses: actions/download-artifact@v4
         with:
           name: nextjs-build
           path: ./out
 
-      # 2. Deploy to GitHub Pages (gh-pages branch, not main)
-      - name: Deploy to Pages
+      - name: Deploy to username.github.io
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
-          publish_branch: gh-pages
+          external_repository: username/username.github.io
+          publish_branch: main   # Pages repo must have a main branch
