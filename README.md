@@ -1,14 +1,8 @@
 <div align="center">
-
-# Vinay Mhatre
 ### Full Stack Engineer · Backend Systems · Cloud-Native Applications
 [![Portfolio](https://img.shields.io/badge/Portfolio-samsterzero.github.io-111111?style=for-the-badge\&logo=githubpages\&logoColor=white)](https://samsterzero.github.io)
 </div>
 I build reliable backend services, modern web applications, and self-hosted tools — with an emphasis on clean architecture, performance, and practical engineering.
-
-
-
----
 
 ## 👨‍💻 About Me
 
