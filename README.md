@@ -1,6 +1,6 @@
 <div align="center">
   
-### Full Stack Engineer · Backend Systems · Cloud-Native Applications
+Full Stack Engineer · Backend Systems · Self-Hosted Applications & Cloud-Native
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-samsterzero.github.io-111111?style=for-the-badge\&logo=githubpages\&logoColor=white)](https://samsterzero.github.io)
 
@@ -9,11 +9,12 @@ I build reliable backend services, modern web applications, and self-hosted tool
 
 ## 👨‍💻 About Me
 
-* ⚙️ I enjoy building **backend systems, APIs, distributed services, and developer tools**.
-* 🌐 I work across the stack with **Spring Boot, SvelteKit, Next.js, React, and TypeScript**.
-* ☁️ I’m interested in **Linux, containers, Kubernetes, cloud infrastructure, observability, and self-hosting**.
-* 🔐 I care about **authentication, API security, caching, reliability, and clean system design**.
-* 🧪 I prefer projects that solve real problems rather than isolated demos.
+* 🏠 I enjoy building self-hosted applications that give users greater ownership and control over their data.
+* ⚙️ I build backend systems, APIs, distributed services, and full-stack applications.
+* 🌐 I work across the stack with Spring Boot, SvelteKit, Next.js, React, and TypeScript.
+* 🐧 I’m interested in Linux, containers, Kubernetes, cloud infrastructure, and observability.
+* 🔐 I care about security, reliability, clean architecture, and data ownership.
+* 🧪 I prefer building practical software that solves real problems over isolated demos.
 
 ---
 
