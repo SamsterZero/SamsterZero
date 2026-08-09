@@ -1,15 +1,17 @@
-<div align="justify-between">
+<table>
+<tr>
+<td>
 
-<div>
-  
-###Full Stack Engineer · Backend Systems · Self-Hosted Applications & Cloud-Native
+### Full Stack Engineer · Backend Systems · Self-Hosted Applications & Cloud-Native
 
-</div>
-<div>
-  
-[![Portfolio](https://img.shields.io/badge/Portfolio-samsterzero.github.io-111111?style=for-the-badge\&logo=githubpages\&logoColor=white)](https://samsterzero.github.io)
-</div>
-</div>
+</td>
+<td align="right">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-samsterzero.github.io-111111?style=for-the-badge&logo=githubpages&logoColor=white)](https://samsterzero.github.io)
+
+</td>
+</tr>
+</table>
 I build reliable backend services, modern web applications, and self-hosted tools — with an emphasis on clean architecture, performance, and practical engineering.
 
 ## 👨‍💻 About Me
