@@ -7,7 +7,6 @@
 I build reliable backend services, modern web applications, and self-hosted tools — with an emphasis on clean architecture, performance, and practical engineering.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-samsterzero.github.io-111111?style=for-the-badge\&logo=githubpages\&logoColor=white)](https://samsterzero.github.io)
-[![GitHub](https://img.shields.io/badge/GitHub-SamsterZero-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/SamsterZero)
 
 </div>
 
